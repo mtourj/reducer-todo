@@ -18,7 +18,7 @@ export const reducer = (state, action) => {
       return {
         ...state,
         todos: [
-          state.todos,
+          ...state.todos,
           {
             name: action.payload,
             completed: false,
