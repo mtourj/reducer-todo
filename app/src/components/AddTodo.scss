@@ -1,0 +1,20 @@
+.new-todo {
+  margin: 8px 16px;
+  border-radius: 4px;
+  height: 100%;
+  padding: 4px;
+  outline: none;
+}
+
+.error {
+  padding: 12px;
+  border: 1px solid crimson;
+  width: 240px;
+  margin: 0 auto;
+  border-radius: 12px;
+  background: rgb(241, 208, 208);
+  color: black;
+  font-weight: bold;
+  user-select: none;
+  cursor: default;
+}
