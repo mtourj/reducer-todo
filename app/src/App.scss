@@ -1,3 +1,46 @@
 .App {
   text-align: center;
 }
+
+.todo-list {
+  display: flex;
+  flex-flow: row wrap;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+button {
+  border: 0;
+  padding: 12px;
+  background: crimson;
+  box-shadow: none;
+  user-select: none;
+  color: white;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+  background: rgb(236, 57, 93);
+  box-shadow: 0 0 5px 0 gray;
+}
+
+button:active {
+  background: rgb(138, 13, 38);
+  box-shadow: 0 0 2px 0 gray;
+}
+
+.empty {
+  border: 1px dashed gray;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 3px;
+  user-select: none;
+  font-style: italic;
+  outline: none;
+  cursor: default;
+}

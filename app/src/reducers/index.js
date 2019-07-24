@@ -6,7 +6,8 @@ export const initialState = {
   todos: [
     {
       name: 'Finish this project',
-      completed: false
+      completed: false,
+      id: uniqid()
     }
   ]
 }
